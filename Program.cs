@@ -1,4 +1,5 @@
-﻿string[] array = new string[5];
+﻿int arraySize=5;
+string[] array = new string[arraySize];
 System.Console.WriteLine("введите информацию");
 for (int i = 0; i < array.Length; i++)
 {
